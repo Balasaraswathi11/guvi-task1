@@ -26,40 +26,40 @@
 ### Limitations:
 - **Performance:** HTTP/1.1 opens a new connection for each request/response, which can lead to increased latency, especially for websites with many resources (images, scripts, etc.).
 
-- Head-of-Line Blocking: In HTTP/1.1, if one resource is slow to load, it can block other resources from loading, even if they could be loaded more quickly.
+- **Head-of-Line Blocking:** In HTTP/1.1, if one resource is slow to load, it can block other resources from loading, even if they could be loaded more quickly.
 
-- Security: While HTTP/1.1 supports TLS for encryption (resulting in HTTPS), it doesn't require it by default, leaving connections vulnerable to eavesdropping and man-in-the-middle attacks.
+- **Security:** While HTTP/1.1 supports TLS for encryption (resulting in HTTPS), it doesn't require it by default, leaving connections vulnerable to eavesdropping and man-in-the-middle attacks.
 
-- Compression: While HTTP/1.1 supports gzip compression, it's not always used, leading to larger-than-necessary data transfers.
+- **Compression:** While HTTP/1.1 supports gzip compression, it's not always used, leading to larger-than-necessary data transfers.
 
-- Multiplexing: HTTP/1.1 doesn't support multiplexing, meaning only one request can be sent on a connection at a time, further increasing latency.
+- **Multiplexing:** HTTP/1.1 doesn't support multiplexing, meaning only one request can be sent on a connection at a time, further increasing latency.
 
 ## HTTP 2
 HTTP/2, the second major version of the HTTP network protocol, was developed by the HTTP Working Group of the Internet Engineering Task Force (IETF). It was designed to address the limitations of HTTP/1.1 and improve the performance of web applications.
 
 ### Advantages
-- Multiplexing: HTTP/2 allows multiple requests and responses to be sent and received over a single TCP connection, eliminating the need for multiple connections and reducing latency.
+- **Multiplexing:** HTTP/2 allows multiple requests and responses to be sent and received over a single TCP connection, eliminating the need for multiple connections and reducing latency.
 
-- Header Compression: HTTP/2 uses HPACK compression for HTTP headers, reducing overhead and improving performance, especially for websites with many small resources.
+- **Header Compression:** HTTP/2 uses HPACK compression for HTTP headers, reducing overhead and improving performance, especially for websites with many small resources.
 
-- Server Push: Servers can proactively push resources to clients that they think the client will need, reducing the need for additional round trips and improving performance.
+- **Server Push:** Servers can proactively push resources to clients that they think the client will need, reducing the need for additional round trips and improving performance.
 
-- Stream Prioritization: HTTP/2 allows clients to assign priority to different resources, ensuring that more important resources are delivered first, even if they are requested later.
+- **Stream Prioritization:** HTTP/2 allows clients to assign priority to different resources, ensuring that more important resources are delivered first, even if they are requested later.
 
-- Binary Protocol: HTTP/2 is a binary protocol, which allows for more efficient parsing and serialization of data compared to the text-based format of HTTP/1.1.
+- **Binary Protocol:** HTTP/2 is a binary protocol, which allows for more efficient parsing and serialization of data compared to the text-based format of HTTP/1.1.
 
-- Backward Compatibility: HTTP/2 is designed to be backward compatible with HTTP/1.1, allowing servers to support both protocols and gradually transition to HTTP/2.
+- **Backward Compatibility:** HTTP/2 is designed to be backward compatible with HTTP/1.1, allowing servers to support both protocols and gradually transition to HTTP/2.
 
 
 ### Disadvantages:
-- Multiplexing: HTTP/2 allows multiple requests and responses to be sent and received over a single TCP connection, eliminating the need for multiple connections and reducing latency.
+- **Multiplexing:** HTTP/2 allows multiple requests and responses to be sent and received over a single TCP connection, eliminating the need for multiple connections and reducing latency.
 
-- Header Compression: HTTP/2 uses HPACK compression for HTTP headers, reducing overhead and improving performance, especially for websites with many small resources.
+- **Header Compression:** HTTP/2 uses HPACK compression for HTTP headers, reducing overhead and improving performance, especially for websites with many small resources.
 
-- Server Push: Servers can proactively push resources to clients that they think the client will need, reducing the need for additional round trips and improving performance.
+- **Server Push:** Servers can proactively push resources to clients that they think the client will need, reducing the need for additional round trips and improving performance.
 
-- Stream Prioritization: HTTP/2 allows clients to assign priority to different resources, ensuring that more important resources are delivered first, even if they are requested later.
+- **Stream Prioritization:** HTTP/2 allows clients to assign priority to different resources, ensuring that more important resources are delivered first, even if they are requested later.
 
-- Binary Protocol: HTTP/2 is a binary protocol, which allows for more efficient parsing and serialization of data compared to the text-based format of HTTP/1.1.
+- **Binary Protocol:** HTTP/2 is a binary protocol, which allows for more efficient parsing and serialization of data compared to the text-based format of HTTP/1.1.
 
-- Backward Compatibility: HTTP/2 is designed to be backward compatible with HTTP/1.1, allowing servers to support both protocols and gradually transition to HTTP/2.
+- **Backward Compatibility:** HTTP/2 is designed to be backward compatible with HTTP/1.1, allowing servers to support both protocols and gradually transition to HTTP/2.
