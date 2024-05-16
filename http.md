@@ -1,4 +1,4 @@
-# Difference between http 1.1 and http 2<br>
+# Difference between HTTP 1.1 and 2<br>
 ## HTTP<br>
 - In 1989, Tim Berners-Lee invented HTTP.<br>
 - HTTP (Hypertext Transfer Protocol) is the set of rules for transferring files -- such as text, images, sound, video and other multimedia files -- over the web.<br> 
