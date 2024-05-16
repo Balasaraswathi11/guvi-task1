@@ -42,7 +42,7 @@ A JavaScript object has properties associated with it. A property of an object c
 objectName.propertyName
 
 Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value.
-Properties of JavaScript objects can also be accessed or set using a bracket notation (for more details see property accessors). Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it. 
+Properties of JavaScript objects can also be accessed or set using a bracket notation. Objects are sometimes called associative arrays, since each property is associated with a string value that can be used to access it. 
 
 Inherited properties of an object are those properties that have been inherited from the object’s prototype, as opposed to being defined for the object itself, which is known as the object’s Own property. To verify if a property is an object’s Own property, we can use the hasOwnProperty method. Property Attributes Data properties in JavaScript have four attributes.
 
