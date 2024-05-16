@@ -15,22 +15,23 @@ In JavaScript, Objects can be created using two different methodologies namely L
 
 **Literal Form:** The literal form uses the construction of object literals that can be said as a collection of key-value pairs enclosed within a pair of curly braces.
 
-**Constructed Form:** The Constructed form uses either an object constructor function or the new keyword to create an empty object ad then adds properties to the object one by one. 
+**Constructed Form:** The Constructed form uses either an object constructor function or the new keyword to create an empty object ad then adds properties to the object one by one.
+
 &nbsp;   **Object Constructor Function:** In this methodology, the user creates an explicit function to take required values as parameters and assign them as the properties of the desired object.
+
 &nbsp;   **Using New Keyword:** This methodology uses the New keyword in front of any constructor method or any built-in constructor method ( such as Object, Date, String, etc) and creates a new instance of the following object by mounting it on memory.
 
 ## Build-in Objects:
 JavaScript consists of a bunch of Built-In Objects, the following list explores most of them. Although these built-ins have the appearance of being actual types or classes like in any other OOP, in JavaScript these are only functions that can be used as constructors to create objects of the particular sub-type.
-
--String
--Number
--Boolean
--Object
--Function
--Array
--Date
--RegExp
--Error
+*String
+*Number
+*Boolean
+*Object
+*Function
+*Array
+*Date
+*RegExp
+*Error
 
 ## Content of Objects:
 JavaScript objects consist of a set of key-value pairs, which are known as Properties. All Properties are named in JavaScript objects and the key part represents the Property name, while the value part represents the property Value. The Property Value can be of the primitive data type or an object or even a function. The property can also be globally accessible in spite of being owned by an object.
