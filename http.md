@@ -10,21 +10,21 @@
 &nbsp; HTTP/1.1 is the version of the Hypertext Transfer Protocol (HTTP) that was standardized in 1997. It was a significant upgrade over the previous version, HTTP/1.0, and introduced several improvements and new features that are still widely used today.
 
 ### Advantages:
-- Widespread Support: HTTP/1.1 is supported by virtually all web servers and browsers, making it a reliable choice for web communication.
+- **Widespread Support:** HTTP/1.1 is supported by virtually all web servers and browsers, making it a reliable choice for web communication.
 
-- Backward Compatibility: It is backward compatible with HTTP/1.0, allowing servers and clients that support HTTP/1.1 to communicate with older systems that may not support newer versions.
+- **Backward Compatibility:** It is backward compatible with HTTP/1.0, allowing servers and clients that support HTTP/1.1 to communicate with older systems that may not support newer versions.
 
-- Simple Implementation: HTTP/1.1 is relatively simple to implement compared to newer versions like HTTP/2, making it an attractive choice for developers working on simpler projects or those with limited resources.
+- **Simple Implementation:** HTTP/1.1 is relatively simple to implement compared to newer versions like HTTP/2, making it an attractive choice for developers working on simpler projects or those with limited resources.
 
-- Caching: HTTP/1.1 includes features for caching resources, which can improve performance by reducing the need to re-fetch resources that have not changed.
+- **Caching:** HTTP/1.1 includes features for caching resources, which can improve performance by reducing the need to re-fetch resources that have not changed.
 
-- Range Requests: It supports range requests, allowing clients to request specific portions of a resource, which can be useful for resuming interrupted downloads or streaming media.
+- **Range Requests:** It supports range requests, allowing clients to request specific portions of a resource, which can be useful for resuming interrupted downloads or streaming media.
 
-- Proven Reliability: HTTP/1.1 has been in use for many years and is a well-established protocol with proven reliability in a wide range of web applications.
+- **Proven Reliability:** HTTP/1.1 has been in use for many years and is a well-established protocol with proven reliability in a wide range of web applications.
 
 
 ### Limitations:
-- Performance: HTTP/1.1 opens a new connection for each request/response, which can lead to increased latency, especially for websites with many resources (images, scripts, etc.).
+- **Performance:** HTTP/1.1 opens a new connection for each request/response, which can lead to increased latency, especially for websites with many resources (images, scripts, etc.).
 
 - Head-of-Line Blocking: In HTTP/1.1, if one resource is slow to load, it can block other resources from loading, even if they could be loaded more quickly.
 
